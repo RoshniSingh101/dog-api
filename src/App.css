@@ -1,0 +1,90 @@
+/* App.css */
+.container {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-card {
+  flex: 2;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+  flex: 0.8;
+  background: var(--bg-light);
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  height: fit-content;
+}
+
+.dog-image {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn-primary {
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  background: var(--primary-blue);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.1s;
+}
+
+.btn-primary:active {
+  transform: scale(0.98);
+}
+
+.attr-button {
+  padding: 10px 15px;
+  border: 2px solid var(--primary-blue);
+  border-radius: 20px;
+  cursor: pointer;
+  background: white;
+  font-size: 0.9rem;
+}
+
+.ban-item {
+  padding: 10px;
+  background: #333;
+  color: white;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clear-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: none;
+  color: #dc3545;
+  cursor: pointer;
+  text-decoration: underline;
+}

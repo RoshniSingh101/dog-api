@@ -1,0 +1,17 @@
+/* index.css */
+:root {
+  --primary-blue: #007bff;
+  --bg-light: #f8f9fa;
+  --text-dark: #333;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #f0f2f5;
+  color: var(--text-dark);
+}
+
+* {
+  box-sizing: border-box;
+}
